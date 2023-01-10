@@ -1,4 +1,4 @@
-name: Python application test with Github Actions
+name: azure
 on: [push]
 jobs: 
   build:
@@ -18,6 +18,3 @@ jobs:
     - name: Test with Pytest
       run: |
         make test
-    - name: Format code with Python black
-      run: |
-        make format
